@@ -32,3 +32,11 @@ my first java ee project
   <li>Сповіщення для користувача</li>
   <li>Можливість відновити пароль через gmail</li>
 </ul>
+
+<h1>Технології</h1>
+<ul>
+    <li>Java EE</li>
+    <li>Apache Tomcat</li>
+    <li>СУБД MySql</li>
+    <li>Hibernate</li>
+</ul>
