@@ -22,3 +22,13 @@ my first java ee project
 
 <h4>Система рейтингу</h4>
 <img src="https://github.com/AndreyLiasshenko/eu-life/blob/main/img/rating.jpg?raw=true" width="50%" height="50%" alt="dsd">
+
+<h1>Планується додати:</h1>
+<ul>
+  <li>Ролі Адміна та модератора</li>
+  <li>Пошук по тегам</li>
+  <li>Систему рівнів</li>
+  <li>Сторінки з додатковою інформацією</li>
+  <li>Сповіщення для користувача</li>
+  <li>Можливість відновити пароль через gmail</li>
+</ul>
