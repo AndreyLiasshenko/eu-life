@@ -1,0 +1,147 @@
+
+
+.testing {
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -ms-line-clamp: 2;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    display: -webkit-box;
+    display: box;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+#content {
+    width: 600px;
+}
+
+#content div {
+    width: 600px;
+}
+
+#content div:hover {
+    box-shadow: rgba(182, 234, 19, 0.17) 0px -23px 25px 0px inset, rgba(190, 234, 6, 0.15) 0px -36px 30px 0px inset, rgba(177, 187, 9, 0.1) 0px -79px 40px 0px inset, rgba(182, 239, 10, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+@media (max-width: 1300px){
+
+    #content {
+        width: 500px;
+    }
+
+    #content div {
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 1200px){
+    #content {
+        width: 450px;
+    }
+
+    #content div {
+        width: 450px;
+    }
+
+    .testing {
+        -ms-line-clamp: 3;
+        -webkit-line-clamp: 3;
+        line-clamp: 3;
+    }
+}
+
+@media (max-width: 1100px){
+    #content {
+        width: 400px;
+    }
+
+    #content div {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1000px){
+    #content {
+        width: 300px;
+    }
+
+    #content div {
+        width: 300px;
+    }
+
+    .testing {
+        -ms-line-clamp: 4;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+    }
+}
+
+@media (max-width: 860px){
+
+    .wrapper {
+        margin-left: 100px;
+    }
+
+}
+
+
+@media (max-width: 740px){
+    .wrapper {
+        margin-left: 30px;
+        width: 100%;
+    }
+
+    #content {
+        width: 400px;
+    }
+
+    #content div {
+        width: 400px;
+    }
+}
+
+
+@media (max-width: 600px){
+    #content {
+        width: 300px;
+    }
+
+    #content div {
+        width: 300px;
+    }
+}
+
+@media (max-width: 500px){
+    .wrapper {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100px;
+    }
+
+    .navbar ul li {
+        padding: 2px;
+    }
+
+    #content {
+        width: 200px;
+    }
+
+    #content div {
+        width: 200px;
+    }
+}
+
+.invisible_link {
+    color: #dee8e8;
+    cursor: pointer;
+    text-decoration: none;
+}
